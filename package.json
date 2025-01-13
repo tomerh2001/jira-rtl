@@ -19,5 +19,6 @@
   "version": "1.7.0",
   "scripts": {
     "test": "xo"
-  }
+  },
+  "packageManager": "yarn@4.6.0"
 }

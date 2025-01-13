@@ -1,0 +1,7 @@
+[data-testid="issue-view-layout-templates-default.ui.foundation-content.foundation-content-wrapper"],
+[data-editor-container-id="issue-description-editor"],
+[data-component-selector="platform-card.ui.card.card-content.content-section"],
+.ak-renderer-document,
+.ak-editor-content-area {
+    direction: rtl;
+}

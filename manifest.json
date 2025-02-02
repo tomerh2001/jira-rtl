@@ -1,11 +1,11 @@
 {
     "manifest_version": 3,
     "name": "Jira Description RTL/LTR Toggle",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A Chrome extension to toggle Jira description issue text direction.",
     "permissions": ["activeTab"],
     "content_scripts": [{
-        "matches": ["https://*.atlassian.net/jira/*"],
+        "matches": ["https://*.atlassian.net/jira/*", "https://*.atlassian.net/browse/*"],
         "css": ["src/styles.css"]
     }],
     "action": {
